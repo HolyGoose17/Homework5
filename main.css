@@ -21,6 +21,7 @@ body{
     background-color: rgba(221, 240, 216, 0.4);
     margin: 15px auto;
     padding: 15px;
+    border-radius: 10px;
 }
 
 form{
@@ -31,6 +32,7 @@ input[type="text"]{
     padding: 10px;
     background-color: rgba(172, 248, 117, 0.4);
     width: 75%;
+    border-radius: 10px;
 }
 input[type="submit"]{
     padding: 10px;
@@ -48,4 +50,5 @@ input[type="reset"]{
 
 textarea{
     width: 75%;
+    border-radius: 10px;
 }
