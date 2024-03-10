@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Форма обратной связи</h1>
+        <form>
+        <label>
+            <p>Введите Ваше имя:<span class="txtRed">* - Поле обязательное для заполнения</p>
+                <input type="text" name="myForm_name" pattern="[А-Яа-яЁё]*" title="Укажите пожалуйста Ваши имя и фамилию использую кириллические символы" maxlength="25" placeholder="Ваше имя" required>
+            </label>
+            <label>
+                <p>Введите Ваш eMail:<span class="txtRed">* - Поле обязательное для заполнения</p>
+                    <input type="text" name="myForm_name" pattern="@" title="Ваша электронная почта обязана иметь окончательные инициалы @mail/@yandex" maxlength="30" placeholder="Ваш eMail" required>
+                </label>
+        <label>
+            <p>Комментарий</p>
+            <textarea name="myForm_text" cols="100" rows="5"></textarea>
+        </label>
+        <br>
+        <input type="reset" name="myForm_btn2" value="Сброс данных">
+        <input type="submit" name="myForm_btn1" value="Отправить">
+    </form>
+    </div>
+    
+</body>
+</html>
